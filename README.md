@@ -59,3 +59,8 @@ tests                    contains various tests for the advanced application
 2. 使用init.bat进行初始化
 3. 在本地数据库创建一个名为advanced的数据库，导入/data/advanced.sql，并确保本地mysql有一个账号为root，密码为空的账号
 4. 使用`localhost:'你设置的端口'/advanced/backend/web`进入后端进行登录(默认账号admin2，密码adminadmin)，然后进入`localhost'你设置的端口'/advanced/frontend/web`即可
+
+如果不能正常使用：
+- 检查php的php.ini文件中是否打开gd,pdo_mysql等extension
+- 检查apache服务器和mysql数据库是否正常运行
+- 检查php.ini的字符集设置是否为UTF-8
