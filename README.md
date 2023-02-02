@@ -52,3 +52,10 @@ environments/            contains environment-based overrides
 tests                    contains various tests for the advanced application
     codeception/         contains tests developed with Codeception PHP Testing Framework
 ```
+
+
+使用步骤：
+1. 拉取本框架到本地，放置于/Xampp/htdocs/目录下
+2. 使用init.bat进行初始化
+3. 在本地数据库创建一个名为advanced的数据库，导入/data/advanced.sql，并确保本地mysql有一个账号为root，密码为空的账号
+4. 使用`localhost:'你设置的端口'/advanced/backend/web`进入后端进行登录(默认账号admin2，密码adminadmin)，然后进入`localhost'你设置的端口'/advanced/frontend/web`即可
