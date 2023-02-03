@@ -64,3 +64,4 @@ tests                    contains various tests for the advanced application
 - 检查php的php.ini文件中是否打开gd,pdo_mysql等extension
 - 检查apache服务器和mysql数据库是否正常运行
 - 检查php.ini的字符集设置是否为UTF-8
+- 检查数据库的root账号是否具有所有权限，如果仍然出问题，建议新建一个具有所有权限的数据库账号，在/common/config/main-local下修改账号和密码为新建用户，再重新尝试
