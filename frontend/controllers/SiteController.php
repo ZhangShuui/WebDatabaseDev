@@ -33,23 +33,21 @@ class SiteController extends Controller
     {
         return [
             'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['logout', 'signup'],
+                'class' => AccessControl::class,
                 'rules' => [
                     [
-                        'actions' => ['signup'],
+                        'actions' => ['login', 'error'],
                         'allow' => true,
-                        'roles' => ['?'],
                     ],
                     [
-                        'actions' => ['logout'],
+                        'actions' => ['logout', 'index'],
                         'allow' => true,
                         'roles' => ['@'],
                     ],
                 ],
             ],
             'verbs' => [
-                'class' => VerbFilter::className(),
+                'class' => VerbFilter::class,
                 'actions' => [
                     'logout' => ['post'],
                 ],
@@ -80,11 +78,6 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        //$this->layout = "main_layout";
-        \YII::beginProfile('profile0');
-        echo 'hello';
-        \Yii::Warning('Hello, I am a test log message');
-        \YII::endProfile('profile0');
         return $this->render('index');
     }
 
