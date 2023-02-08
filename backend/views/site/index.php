@@ -2,7 +2,9 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = '后台数据管理';
+$this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="site-index">
 

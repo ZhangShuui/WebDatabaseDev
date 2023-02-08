@@ -11,7 +11,7 @@
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-use frontend\assets\AppAsset;
+use backend\assets\AppAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 use yii\bootstrap\Nav;
@@ -188,7 +188,7 @@ AppAsset::register($this);
     <!-- Start: Header -->
     <header class="navbar navbar-fixed-top navbar-shadow">
       <div class="navbar-branding">
-        <a class="navbar-brand" href="dashboard.html">
+        <a class="navbar-brand" href=#>
           <b>管理</b>后台
         </a>
         <span id="toggle_sidemenu_l" class="ad ad-lines"></span>
@@ -327,11 +327,11 @@ AppAsset::register($this);
             <ul class="nav sub-nav">
               <li>
                 <a href="<?php echo Url::to(['site/personalwork1']) ?>">
-                  <span class="glyphicon glyphicon-book"></span> 乜鹏</a>
+                  <span class="glyphicon glyphicon-book"></span> 张书睿</a>
               </li>
               <li>
                 <a href="<?php echo Url::to(['site/personalwork2']) ?>">
-                  <span class="glyphicon glyphicon-book"></span> xx</a>
+                  <span class="glyphicon glyphicon-book"></span> </a>
               </li>
             </ul>
           </li>
@@ -340,31 +340,9 @@ AppAsset::register($this);
 
          
           <!-- sidebar progress bars -->
-          <li class="sidebar-label pt25 pb10">系统状态</li>
-          <li class="sidebar-stat">
-            <a href="#projectOne" class="fs11">
-              <span class="fa fa-inbox text-info"></span>
-              <span class="sidebar-title text-muted">待定1</span>
-              <span class="pull-right mr20 text-muted">35%</span>
-              <div class="progress progress-bar-xs mh20 mb10">
-                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 35%">
-                  <span class="sr-only">35% Complete</span>
-                </div>
-              </div>
-            </a>
-          </li>
-          <li class="sidebar-stat">
-            <a href="#projectOne" class="fs11">
-              <span class="fa fa-dropbox text-warning"></span>
-              <span class="sidebar-title text-muted">待定2</span>
-              <span class="pull-right mr20 text-muted">58%</span>
-              <div class="progress progress-bar-xs mh20">
-                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 58%">
-                  <span class="sr-only">58% Complete</span>
-                </div>
-              </div>
-            </a>
-          </li>
+          <li class="sidebar-label pt25 pb10">前台内容管理</li>
+
+
         </ul>
         <!-- End: Sidebar Menu -->
 
