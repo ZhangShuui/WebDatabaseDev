@@ -121,249 +121,26 @@ $this->context->layout = false;
             </div>
         </div>
     </section>
-
-    <section class="section-50 section-md-75 section-lg-100">
+    <section class="section-35 section-md-50">
         <div class="container">
-            <div class="row row-40">
-                <div class="col-md-6 col-lg-4 height-fill">
-                    <article class="icon-box">
-                        <div class="box-top">
-                            <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg mercury-icon-briefcase"></span></div>
-                            <div class="box-header">
-                                <h5><a href="#">Business Law</a></h5>
-                            </div>
-                        </div>
-                        <div class="divider bg-accent"></div>
-                        <div class="box-body">
-                            <p>Business law deals with the creation of new businesses and the issues that arise as existing.</p>
-                        </div>
-                    </article>
+            <h3>简介</h3>
+            <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
+                <div class="col-md-6">
+                    <figure><img src="statics/images/typography-2-570x386.jpg" alt="" width="570" height="386">
+                    </figure>
                 </div>
-                <div class="col-md-6 col-lg-4 height-fill">
-                    <article class="icon-box">
-                        <div class="box-top">
-                            <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg mercury-icon-users"></span></div>
-                            <div class="box-header">
-                                <h5><a href="#">Family Law</a></h5>
-                            </div>
-                        </div>
-                        <div class="divider bg-accent"></div>
-                        <div class="box-body">
-                            <p>Family law attorneys help their clients file for separation or divorce, alimony or child custody.</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="col-md-6 col-lg-4 height-fill">
-                    <article class="icon-box">
-                        <div class="box-top">
-                            <div class="box-icon"><span class="novi-icon icon icon-primary icon-lg mercury-icon-lib"></span></div>
-                            <div class="box-header">
-                                <h5><a href="#">Civil Litigation</a></h5>
-                            </div>
-                        </div>
-                        <div class="divider bg-accent"></div>
-                        <div class="box-body">
-                            <p>Civil litigation is the process in which civil matters are resolved in a court of law.</p>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-displaced-wrap">
-        <div class="bg-displaced-body">
-            <div class="container">
-                <div class="inset-xl-left-70 inset-xl-right-70">
-                    <article class="box-cart bg-ebony-clay">
-                        <div class="box-cart-image"><img src="statics/images/home-2-342x338.jpg" alt="" width="342" height="338"/>
-                        </div>
-                        <div class="box-cart-body">
-                            <blockquote class="blockquote-complex blockquote-complex-inverse">
-                                <h3>About Us</h3>
-                                <p>
-                                    <q>When you place your case in the hands of our lawyers and paralegals, you are placing your case in the hands of professionals who are committed to achieving the best possible outcome.</q>
-                                </p>
-                                <div class="quote-footer">
-                                    <cite>Ryan Emberson</cite><small>CEO at LawExpert</small>
-                                </div>
-                            </blockquote>
-                            <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-        <div class="bg-displaced bg-image" style="background-image: url(statics/images/home-1.jpg);"></div>
-    </section>
-
-    <section class="section-60 section-lg-100">
-        <div class="container">
-            <div class="row row-40 align-items-sm-end">
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                        <div class="thumbnail thumbnail-variant-2">
-                            <figure class="thumbnail-image"><img src="statics/images/team-9-246x300.jpg" alt="" width="246" height="300"/>
-                            </figure>
-                            <div class="thumbnail-inner">
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                            </div>
-                            <div class="thumbnail-caption">
-                                <p class="text-header"><a href="#">Amanda Smith</a></p>
-                                <div class="divider divider-md bg-teak"></div>
-                                <p class="text-caption">Paralegal</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                        <div class="thumbnail thumbnail-variant-2">
-                            <figure class="thumbnail-image"><img src="statics/images/team-10-246x300.jpg" alt="" width="246" height="300"/>
-                            </figure>
-                            <div class="thumbnail-inner">
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                            </div>
-                            <div class="thumbnail-caption">
-                                <p class="text-header"><a href="#">John Doe</a></p>
-                                <div class="divider divider-md bg-teak"></div>
-                                <p class="text-caption">Attorney</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                        <div class="thumbnail thumbnail-variant-2">
-                            <figure class="thumbnail-image"><img src="statics/images/team-11-246x300.jpg" alt="" width="246" height="300"/>
-                            </figure>
-                            <div class="thumbnail-inner">
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                            </div>
-                            <div class="thumbnail-caption">
-                                <p class="text-header"><a href="#">Vanessa Ives</a></p>
-                                <div class="divider divider-md bg-teak"></div>
-                                <p class="text-caption">Legal Assistant</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-12 col-lg-3 text-center">
-                    <div class="block-wrap-1">
-                        <div class="block-number">06</div>
-                        <h3 class="text-normal">Experts</h3>
-                        <p class="h5 h5-smaller text-style-4">in Their Fields</p>
-                        <p>If you or your business is facing a legal challenge, contact us today to arrange a free initial consultation with an attorney.</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Read more</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+                <div class="col-md-6">
+                    <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
+                        <p>Our approach is practical and client-oriented, and we are committed to providing efficient, effective, and top-quality legal services. Other firms measure success by their growth in size. Our priority is to measure our success based on the growth in the quality of our work and the complexity of our legal services.</p>
+                        <p>We endeavour to establish long-lasting relationships with our clients. Every assignment is preceded by a careful assessment of the work, costs and realistic results. We carry out our assignments in close consultation with the client. This goes some way to explaining why we are justifiably proud of our many long-standing and close client relationships. In the course of long-term engagements, each client has a specific contact attorney within the firm who is familiar with the client's business operations and maintains close communication with the client.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <section class="section parallax-container bg-black" data-parallax-img="statics/images/progress-bars-parallax-1.jpg">
-        <div class="parallax-content">
-            <div class="section-50 section-md-90">
-                <div class="container">
-                    <div class="row row-40">
-                        <div class="col-sm-6 col-md-3">
-                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg icon-primary mercury-icon-group"></span>
-                                <div class="text-large counter">1450</div>
-                                <p class="box-header">Happy Clients</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-scales"></span>
-                                <div class="text-large counter">23</div>
-                                <p class="box-header">Years of Experience</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-partners"></span>
-                                <div class="text-large counter counter-percent">98</div>
-                                <p class="box-header">Successful Cases</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-3">
-                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg icon-primary mercury-icon-case"></span>
-                                <div class="text-large counter">7500</div>
-                                <p class="box-header">Personal Injury Cases</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="section-66 section-md-90 section-xl-bottom-100">
-        <div class="container">
-            <h3 class="text-center">Testimonials</h3>
-            <div class="owl-carousel owl-spacing-1 owl-nav-classic owl-style-minimal" data-autoplay="true" data-items="1" data-md-items="2" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-nav="true" data-dots="true" data-dots-each="1">
-                <div class="item">
-                    <blockquote class="quote-bordered">
-                        <div class="quote-body">
-                            <div class="quote-open">
-                                <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15" preserveAspectRatio="none">
-                                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316                    c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37                    C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316                    c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37                    C20.106,7.145,20.987,8.493,20.987,10.412z"></path>
-                                </svg>
-                            </div>
-                            <div class="quote-body-inner">
-                                <h6>One of The Most Ethical Lawyers I’ve Ever Known...</h6>
-                                <p>
-                                    <q>I’ve never known another lawyer more prepared or focused.  John has the ability to dissect a case much like a skilled surgeon, with absolute calm.  Nothing seems to distract him from his goal on a case, which of course, makes him extremely tough to beat.</q>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="quote-footer">
-                            <div class="unit unit-horizontal unit-spacing-sm align-items-center">
-                                <div class="unit-left"><img class="img-circle" src="statics/images/clients-testimonials-1-68x68.jpg" alt="" width="68" height="68"/>
-                                </div>
-                                <div class="unit-body">
-                                    <cite>Mark Wilson</cite>
-                                    <p class="text-primary">CFO, Wilson Ltd.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </blockquote>
-                </div>
-                <div class="item">
-                    <blockquote class="quote-bordered">
-                        <div class="quote-body">
-                            <div class="quote-open">
-                                <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15" preserveAspectRatio="none">
-                                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316                    c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37                    C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316                    c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37                    C20.106,7.145,20.987,8.493,20.987,10.412z"></path>
-                                </svg>
-                            </div>
-                            <div class="quote-body-inner">
-                                <h6>LawExpert is One of The Best...</h6>
-                                <p>
-                                    <q>John Doe is one of those attorneys who has it all-talent and skill, compassion for his clients, and the ability to communicate well with anyone he meets. This is one of the best combinations for a trial attorney and he is one of the best.</q>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="quote-footer">
-                            <div class="unit unit-horizontal unit-spacing-sm align-items-center">
-                                <div class="unit-left"><img class="img-circle" src="statics/images/clients-testimonials-2-68x68.jpg" alt="" width="68" height="68"/>
-                                </div>
-                                <div class="unit-body">
-                                    <cite>Amanda Eberson</cite>
-                                    <p class="text-primary">CEO, Eberson Co.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </blockquote>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="section-50 section-md-75 section-xl-100">
         <div class="container">
-            <h3 class="text-center">Latest News</h3>
+            <h3 class="text-center">前线局势</h3>
             <div class="row row-40 row-offset-1 justify-content-sm-center justify-content-md-start">
                 <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
                     <article class="post-boxed">
@@ -436,6 +213,254 @@ $this->context->layout = false;
             </div>
         </div>
     </section>
+    <section class="section parallax-container bg-black" data-parallax-img="statics/images/back.jpg">
+        <div class="parallax-content">
+            <div class="section-50 section-md-90">
+                <div class="container">
+                    <div class="row row-40">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg icon-primary mercury-icon-group"></span>
+                                <div class="text-large counter">7068</div>
+                                <p class="text-bigger">平民死亡数</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-group"></span>
+                                <div class="text-large counter">61207</div>
+                                <p class="text-bigger">乌军死亡数</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-group"></span>
+                                <div class="text-large counter">21000</div>
+                                <p class="text-bigger">俄军死亡数</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <div class="box-counter box-counter-inverse"><span class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-gear"></span>
+                                <div class="text-large counter">100000+</div>
+                                <p class="text-bigger">双方伤员</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-50 section-md-75 section-lg-100">
+        <div class="container">
+            <h3 class="text-center">国际观察</h3>
+            <div class="owl-carousel owl-spacing-1 owl-nav-classic owl-style-minimal" data-autoplay="true" data-items="1" data-md-items="3" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-nav="true" data-dots="true" data-dots-each="1">
+                <div class="item">
+                    <div class="block">
+                        <article class="icon-box">
+                            <div class="box-top">
+                                <div class="box-header">
+                                    <h5>Business Law</h5>
+                                </div>
+                            </div>
+                            <div class="divider bg-accent"></div>
+                            <div class="box-body">
+                                <p>Business law deals with the creation of new businesses and the issues that arise as existing.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="block">
+                        <article class="icon-box">
+                            <div class="box-top">
+                                <div class="box-header">
+                                    <h5>Family Law</h5>
+                                </div>
+                            </div>
+                            <div class="divider bg-accent"></div>
+                            <div class="box-body">
+                                <p>Family law attorneys help their clients file for separation or divorce, alimony or child custody.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="block">
+                        <article class="icon-box">
+                            <div class="box-top">
+                                <div class="box-header">
+                                    <h5>Civil Litigation</h5>
+                                </div>
+                            </div>
+                            <div class="divider bg-accent"></div>
+                            <div class="box-body">
+                                <p>Civil litigation is the process in which civil matters are resolved in a court of law.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-displaced-wrap">
+        <div class="bg-displaced-body">
+            <div class="container">
+                <div class="inset-xl-left-70 inset-xl-right-70">
+                    <article class="box-cart bg-ebony-clay">
+                        <div class="box-cart-image"><img src="statics/images/home-2-342x338.jpg" alt="" width="342" height="338"/>
+                        </div>
+                        <div class="box-cart-body">
+                            <blockquote class="blockquote-complex blockquote-complex-inverse">
+                                <h3>专家视角</h3>
+                                <p>
+                                    <q>When you place your case in the hands of our lawyers and paralegals, you are placing your case in the hands of professionals who are committed to achieving the best possible outcome.</q>
+                                </p>
+                                <div class="quote-footer">
+                                    <cite>Ryan Emberson</cite><small>CEO at LawExpert</small>
+                                </div>
+                            </blockquote>
+                            <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <div class="bg-displaced bg-image" style="background-image: url(statics/images/OIP.jpg);"></div>
+    </section>
+
+    <section class="section-60 section-lg-100">
+        <div class="container">
+            <div class="row row-40 align-items-sm-end">
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="thumbnail-variant-2-wrap">
+                        <div class="thumbnail thumbnail-variant-2">
+                            <figure class="thumbnail-image"><img src="statics/images/team-9-246x300.jpg" alt="" width="246" height="300"/>
+                            </figure>
+                            <div class="thumbnail-inner">
+                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
+                            </div>
+                            <div class="thumbnail-caption">
+                                <p class="text-header"><a href="#">Amanda Smith</a></p>
+                                <div class="divider divider-md bg-teak"></div>
+                                <p class="text-caption">Paralegal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="thumbnail-variant-2-wrap">
+                        <div class="thumbnail thumbnail-variant-2">
+                            <figure class="thumbnail-image"><img src="statics/images/team-10-246x300.jpg" alt="" width="246" height="300"/>
+                            </figure>
+                            <div class="thumbnail-inner">
+                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
+                            </div>
+                            <div class="thumbnail-caption">
+                                <p class="text-header"><a href="#">John Doe</a></p>
+                                <div class="divider divider-md bg-teak"></div>
+                                <p class="text-caption">Attorney</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="thumbnail-variant-2-wrap">
+                        <div class="thumbnail thumbnail-variant-2">
+                            <figure class="thumbnail-image"><img src="statics/images/team-11-246x300.jpg" alt="" width="246" height="300"/>
+                            </figure>
+                            <div class="thumbnail-inner">
+                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
+                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
+                            </div>
+                            <div class="thumbnail-caption">
+                                <p class="text-header"><a href="#">Vanessa Ives</a></p>
+                                <div class="divider divider-md bg-teak"></div>
+                                <p class="text-caption">Legal Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-3 text-center">
+                    <div class="block-wrap-1">
+                        <div class="block-number">06</div>
+                        <h3 class="text-normal">Experts</h3>
+                        <p class="h5 h5-smaller text-style-4">in Their Fields</p>
+                        <p>If you or your business is facing a legal challenge, contact us today to arrange a free initial consultation with an attorney.</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Read more</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <br class="section-66 section-md-90 section-xl-bottom-100">
+        <div class="container">
+            <h3 class="text-center" href="#">留言板</h3>
+            <div class="owl-carousel owl-spacing-1 owl-nav-classic owl-style-minimal" data-autoplay="true" data-items="1" data-md-items="2" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-nav="true" data-dots="true" data-dots-each="1">
+                <div class="item">
+                    <blockquote class="quote-bordered">
+                        <div class="quote-body">
+                            <div class="quote-open">
+                                <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15" preserveAspectRatio="none">
+                                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316                    c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37                    C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316                    c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37                    C20.106,7.145,20.987,8.493,20.987,10.412z"></path>
+                                </svg>
+                            </div>
+                            <div class="quote-body-inner">
+                                <h6>俄乌战争是美俄博弈的激化</h6>
+                                <p>
+                                    <q>俄乌冲突是俄美矛盾激化、俄方对美反击的具体表现。无论是北约东扩，还是俄乌冲突，美国军火商都从中受益。美国军工复合体应对俄乌冲突爆发负责，因为军工复合体的利益追逐及其游说活动导致冷战后北约一再违反不再东扩的承诺。美国军工复合体的利益决定美国需要敌人，因此它总有动力在全球寻找新的敌人。</q>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quote-footer">
+                            <div class="unit unit-horizontal unit-spacing-sm align-items-center">
+                                <div class="unit-left"><img class="img-circle" src="statics/images/clients-testimonials-1-68x68.jpg" alt="" width="68" height="68"/>
+                                </div>
+                                <div class="unit-body">
+                                    <cite>张书睿</cite>
+                                    <p class="text-primary">2010521</p>
+                                </div>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="item">
+                    <blockquote class="quote-bordered">
+                        <div class="quote-body">
+                            <div class="quote-open">
+                                <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15" preserveAspectRatio="none">
+                                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316                    c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37                    C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316                    c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37                    C20.106,7.145,20.987,8.493,20.987,10.412z"></path>
+                                </svg>
+                            </div>
+                            <div class="quote-body-inner">
+                                <h6>LawExpert is One of The Best...</h6>
+                                <p>
+                                    <q>John Doe is one of those attorneys who has it all-talent and skill, compassion for his clients, and the ability to communicate well with anyone he meets. This is one of the best combinations for a trial attorney and he is one of the best.</q>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quote-footer">
+                            <div class="unit unit-horizontal unit-spacing-sm align-items-center">
+                                <div class="unit-left"><img class="img-circle" src="statics/images/clients-testimonials-2-68x68.jpg" alt="" width="68" height="68"/>
+                                </div>
+                                <div class="unit-body">
+                                    <cite>Amanda Eberson</cite>
+                                    <p class="text-primary">CEO, Eberson Co.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    <br>
+    </section>
+    <div class="centered">
+        <a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>写下你自己的留言</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+    </div>
+    <br>
     <footer class="page-foot bg-ebony-clay">
         <div class="section-40 section-md-75">
             <div class="container">
