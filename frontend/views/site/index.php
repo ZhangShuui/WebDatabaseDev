@@ -66,7 +66,7 @@ $this->context->layout = false;
     <section>
         <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
             <div class="swiper-wrapper text-center">
-                <div class="swiper-slide" data-slide-bg="statics/images/eu12.jpg">
+                <div class="swiper-slide" data-slide-bg="statics/images/TASS.jpg">
                     <div class="swiper-slide-caption text-center">
                         <div class="container">
                             <div class="row justify-content-md-center">
@@ -82,7 +82,7 @@ $this->context->layout = false;
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" data-slide-bg="statics/images/home-slider-slide-2.jpg">
+                <div class="swiper-slide" data-slide-bg="statics/images/eu12.jpg">
                     <div class="swiper-slide-caption text-center">
                         <div class="container">
                             <div class="row justify-content-md-center">
@@ -92,23 +92,22 @@ $this->context->layout = false;
                                     </div>
                                     <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">从多个角度观察俄乌战争</h2>
                                     <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Observing the Russo-Ukraine War from Multiple Angles</p>
-                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" data-slide-to="section parallax-container bg-black">向下翻动</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" data-slide-bg="statics/images/home-slider-slide-3.jpg">
+                <div class="swiper-slide" data-slide-bg="statics/images/R.jfif">
                     <div class="swiper-slide-caption text-center">
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-md-11 col-lg-10 col-xl-9">
                                     <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                                        <h3 class="medium text-primary">With Our Services</h3>
+                                        <h3 class="medium text-primary">留言</h3>
                                     </div>
-                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">You Will Get Extensive Legal Support</h2>
-                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">We have years of experience in providing legal help in various spheres of law.</p>
-                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">在此处留下你的见解感受</h2>
+                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Leave your opinion here</p>
+                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Write Down</a></div>
                                 </div>
                             </div>
                         </div>
