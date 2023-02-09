@@ -85,7 +85,7 @@ class SiteController extends Controller
             return $this->render('index');
         }
         else{
-            $this->layout = '';
+            $this->layout = 'blank';
             $model = new LoginForm();
 
             if ($model->load(Yii::$app->request->post()) && $model->login()) {
