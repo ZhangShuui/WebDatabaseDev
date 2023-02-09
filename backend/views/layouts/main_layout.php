@@ -341,8 +341,22 @@ AppAsset::register($this);
          
           <!-- sidebar progress bars -->
           <li class="sidebar-label pt25 pb10">前台内容管理</li>
-
-
+            <li>
+                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                    <span class="glyphicon glyphicon-user"></span> 用户管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                    <span class="glyphicon glyphicon-bell"></span> 新闻管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                    <span class="glyphicon glyphicon-book"></span> 留言板管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                    <span class="glyphicon glyphicon-link"></span> 友链管理</a>
+            </li>
         </ul>
         <!-- End: Sidebar Menu -->
 

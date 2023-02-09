@@ -6,7 +6,7 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-
+$this->context->layout = null;
 $this->title = 'Login';
 $this->params['breadcrumbs'][] = $this->title;
 ?>

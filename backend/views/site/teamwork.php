@@ -2,7 +2,7 @@
 
 /* @var $this yii\web\View */
 /* @var $form yii\bootstrap\ActiveForm */
-/* @var $model \frontend\models\ContactForm */
+/* @var $model \backend\models\ContactForm */
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
@@ -13,10 +13,12 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
     <h1>团队：DBIS, NKU</h1>
+    <div class="row">
+        <div class="col-lg-6">
+            <h5>团队成员：张书睿，123,321,456</h5>
+        </div>
+    </div>
 
-    <p>
-        团队成员：乜鹏(0912635)
-    </p>
     <br/>
     <div class="row">
         <div class="col-lg-5">

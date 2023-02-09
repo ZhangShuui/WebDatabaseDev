@@ -46,13 +46,11 @@ $this->context->layout = false;
                     <div class="rd-navbar-group">
                         <div class="rd-navbar-nav-wrap">
                             <div class="rd-navbar-nav-inner">
-                                <div class="rd-navbar-btn-wrap"><a class="button button-smaller button-primary-outline" href="#">Appointment</a></div>
+                                <div class="rd-navbar-btn-wrap"><a class="button button-smaller button-primary-outline" href="\advanced\backend\web">进入后台</a></div>
                                 <ul class="rd-navbar-nav">
                                     <li class="active"><a href="index.html">Home</a>
                                     </li>
                                     <li><a href="about-us.html">About Us</a>
-                                    </li>
-                                    <li><a href="typography.html">Typography</a>
                                     </li>
                                     <li><a href="contact-us.html">Contacts</a>
                                     </li>
@@ -68,17 +66,17 @@ $this->context->layout = false;
     <section>
         <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
             <div class="swiper-wrapper text-center">
-                <div class="swiper-slide" data-slide-bg="statics/images/home-slider-slide-1.jpg">
+                <div class="swiper-slide" data-slide-bg="statics/images/eu12.jpg">
                     <div class="swiper-slide-caption text-center">
                         <div class="container">
                             <div class="row justify-content-md-center">
                                 <div class="col-md-11 col-lg-10 col-xl-9">
                                     <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                                        <h3 class="medium text-primary">With Us</h3>
+                                        <h3 class="medium text-primary">俄乌冲突</h3>
                                     </div>
-                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">You Are Always One Step Ahead</h2>
-                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Strategies of our attorneys will help you solve very complex legal issues.</p>
-                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">一场旷日持久的混合战争</h2>
+                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">A Protracted Hybrid War</p>
+                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="https://zh.wikipedia.org/zh-hans/%E4%BF%84%E4%B9%8C%E6%88%98%E4%BA%89">To Wiki</a></div>
                                 </div>
                             </div>
                         </div>
@@ -90,11 +88,11 @@ $this->context->layout = false;
                             <div class="row justify-content-md-center">
                                 <div class="col-md-11 col-lg-10 col-xl-9">
                                     <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                                        <h3 class="medium text-primary">We Offer</h3>
+                                        <h3 class="medium text-primary">了解局势</h3>
                                     </div>
-                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">Affordable and Effective Legal Help</h2>
-                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Our expert team of attorneys and consultants will be glad to provide necessary legal assistance.</p>
-                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">从多个角度观察俄乌战争</h2>
+                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Observing the Russo-Ukraine War from Multiple Angles</p>
+                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" data-slide-to="section parallax-container bg-black">向下翻动</a></div>
                                 </div>
                             </div>
                         </div>

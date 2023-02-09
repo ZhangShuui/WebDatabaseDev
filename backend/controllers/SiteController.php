@@ -82,10 +82,11 @@ class SiteController extends Controller
     {
         if (!Yii::$app->user->isGuest){
             $this->layout = 'main_layout';
-            return $this->render('index');
+            return $this->render('teamwork');
+            //既然有侧边栏就不设置主页了
         }
         else{
-            $this->layout = 'blank';
+            $this->layout = null;
             $model = new LoginForm();
 
             if ($model->load(Yii::$app->request->post()) && $model->login()) {
