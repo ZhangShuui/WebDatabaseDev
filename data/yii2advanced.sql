@@ -11,7 +11,7 @@
  Target Server Version : 50737
  File Encoding         : 65001
 
- Date: 10/02/2023 12:50:50
+ Date: 10/02/2023 15:55:51
 */
 
 SET NAMES utf8mb4;
@@ -22,14 +22,32 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- ----------------------------
 DROP TABLE IF EXISTS `double_deathandhurt`;
 CREATE TABLE `double_deathandhurt`  (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
   `citizens_death` int(22) NOT NULL,
   `ukraine_death` int(22) NOT NULL,
   `russia_death` int(22) NOT NULL,
-  `double_hurt` int(22) NOT NULL
-) ENGINE = InnoDB CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+  `double_hurt` int(22) NOT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of double_deathandhurt
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for expertviews
+-- ----------------------------
+DROP TABLE IF EXISTS `expertviews`;
+CREATE TABLE `expertviews`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  `content` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  `time` datetime(0) NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of expertviews
 -- ----------------------------
 
 -- ----------------------------
@@ -45,6 +63,20 @@ CREATE TABLE `feedback`  (
 
 -- ----------------------------
 -- Records of feedback
+-- ----------------------------
+
+-- ----------------------------
+-- Table structure for friendlink
+-- ----------------------------
+DROP TABLE IF EXISTS `friendlink`;
+CREATE TABLE `friendlink`  (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `url` varchar(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = latin1 COLLATE = latin1_swedish_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of friendlink
 -- ----------------------------
 
 -- ----------------------------
