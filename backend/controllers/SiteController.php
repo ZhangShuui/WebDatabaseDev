@@ -72,7 +72,9 @@ class SiteController extends Controller
             ],
         ];
     }
-
+    public function actionNewsindex(){
+        return $this->render('newsindex');
+    }
     /**
      * Displays homepage.
      *
@@ -255,4 +257,6 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+
 }

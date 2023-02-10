@@ -346,7 +346,7 @@ AppAsset::register($this);
                     <span class="glyphicon glyphicon-user"></span> 用户管理</a>
             </li>
             <li>
-                <a href="<?php echo Url::to(['']) ?>">
+                <a href="<?php echo Url::to(['site/newsindex']) ?>">
                     <span class="glyphicon glyphicon-bell"></span> 新闻管理</a>
             </li>
             <li>
