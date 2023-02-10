@@ -64,7 +64,7 @@ $this->context->layout = false;
     </header>
 
     <section>
-        <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500" data-simulate-touch="true">
+        <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="true" data-autoplay="5500" data-simulate-touch="true">
             <div class="swiper-wrapper text-center">
                 <div class="swiper-slide" data-slide-bg="statics/images/TASS.jpg">
                     <div class="swiper-slide-caption text-center">
@@ -140,7 +140,7 @@ $this->context->layout = false;
     </section>
     <section class="section-50 section-md-75 section-xl-100">
         <div class="container">
-            <h3 class="text-center">前线局势</h3>
+            <h3 class="text-center"><a href="/advanced/frontend/web/index.php?r=np-frontsituation-article">前线局势</a></h3>
             <div class="row row-40 row-offset-1 justify-content-sm-center justify-content-md-start">
                 <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
                     <article class="post-boxed">
@@ -249,7 +249,7 @@ $this->context->layout = false;
     </section>
     <section class="section-50 section-md-75 section-lg-100">
         <div class="container">
-            <h3 class="text-center">国际观察</h3>
+            <h3 class="text-center"><a href="/advanced/frontend/web/index.php?r=np-globalsituation-article">国际观察</a></h3>
             <div class="owl-carousel owl-spacing-1 owl-nav-classic owl-style-minimal" data-autoplay="true" data-items="1" data-md-items="3" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true" data-nav="true" data-dots="true" data-dots-each="1">
                 <div class="item">
                     <div class="block">
@@ -458,7 +458,7 @@ $this->context->layout = false;
     <br>
     </section>
     <div class="centered">
-        <a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>写下你自己的留言</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+        <a class="link link-group link-group-animated link-bold link-secondary" href="/advanced/frontend/web/index.php?r=leave-message"><span>写下你自己的留言</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
     </div>
     <br>
     <footer class="page-foot bg-ebony-clay">

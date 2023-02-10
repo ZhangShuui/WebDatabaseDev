@@ -12,6 +12,7 @@ use yii\widgets\Pjax;
 
 $this->title = 'Np Hurtanddeathsituation Articles';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="np-hurtanddeathsituation-article-index">
 

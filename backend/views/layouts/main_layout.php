@@ -4,7 +4,7 @@
 /**
  * Team: DBIS,NKU
  * Coding by niepeng 016096, 20170703
- * This is the main layout of frontend web. 
+ * This is the main layout of backend web. 
  */
 
 
@@ -342,15 +342,15 @@ AppAsset::register($this);
           <!-- sidebar progress bars -->
           <li class="sidebar-label pt25 pb10">前台内容管理</li>
             <li>
-                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                <a href="<?php echo Url::to(['user/index']) ?>">
                     <span class="glyphicon glyphicon-user"></span> 用户管理</a>
             </li>
             <li>
-                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                <a href="<?php echo Url::to(['']) ?>">
                     <span class="glyphicon glyphicon-bell"></span> 新闻管理</a>
             </li>
             <li>
-                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                <a href="<?php echo Url::to(['leave-message/index']) ?>">
                     <span class="glyphicon glyphicon-book"></span> 留言板管理</a>
             </li>
             <li>
