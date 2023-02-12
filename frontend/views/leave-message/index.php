@@ -17,31 +17,48 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Create Leave Message', ['create'], ['class' => 'btn btn-success']) ?>
+    <?php
+    if(!Yii::$app->user->isGuest){
+        echo Html::a('点击进行留言', ['create'], ['class' => 'btn btn-success']);
+    }
+    else
+    {
+        echo Html::a('登陆后进行留言', yii\helpers\Url::to(['/site/login']), ['class' => 'btn btn-info']);
+    }
+    ?>
     </p>
 
     <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
-
-            'id',
-            'user',
-            'time',
-            'content',
-            [
-                'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, LeaveMessage $model, $key, $index, $column) {
-                    return Url::toRoute([$action, 'id' => $model->id]);
-                 }
+        <?= GridView::widget([
+            'dataProvider' => $dataProvider,
+            //'filterModel' => $searchModel,
+            'options' => [
+                'style'=>'overflow: auto; word-wrap: break-word;'
             ],
-        ],
-    ]); ?>
+            'columns' => [
+                //['class' => 'yii\grid\SerialColumn'],
+                ['class' => 'yii\grid\DataColumn'],
+                'id',
+                [
+                    'attribute'=>'content',
+                    // 'contentOptions' => [
+                    // 'style'=>'word-wrap:break-word;word-break:break-all'
+                    // ],
+                    'headerOptions' => ['width' => '700']
+                ],
+                [
+                    'attribute'=>'time',
+                    'value'=>function($model){
+                        return date('Y-m-d', $model->time);
+
+                    },
+                ]
+
+                //['class' => 'yii\grid\ActionColumn'],
+            ],
+        ]); ?>
 
     <?php Pjax::end(); ?>
 

@@ -9,7 +9,7 @@ $this->context->layout = false;
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
 <head>
-    <title>Home</title>
+    <title>URWar</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,11 +48,7 @@ $this->context->layout = false;
                             <div class="rd-navbar-nav-inner">
                                 <div class="rd-navbar-btn-wrap"><a class="button button-smaller button-primary-outline" href="\advanced\backend\web">进入后台</a></div>
                                 <ul class="rd-navbar-nav">
-                                    <li class="active"><a href="index.html">Home</a>
-                                    </li>
-                                    <li><a href="about-us.html">About Us</a>
-                                    </li>
-                                    <li><a href="contact-us.html">Contacts</a>
+                                    <li class="active"><a href="#">主页</a>
                                     </li>
                                 </ul>
                             </div>
@@ -97,22 +93,6 @@ $this->context->layout = false;
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide" data-slide-bg="statics/images/R.jfif">
-                    <div class="swiper-slide-caption text-center">
-                        <div class="container">
-                            <div class="row justify-content-md-center">
-                                <div class="col-md-11 col-lg-10 col-xl-9">
-                                    <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
-                                        <h3 class="medium text-primary">留言</h3>
-                                    </div>
-                                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">在此处留下你的见解感受</h2>
-                                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">Leave your opinion here</p>
-                                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400"><a class="button button-lg button-primary-outline-v2" href="#">Write Down</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="swiper-scrollbar d-lg-none"></div>
             <div class="swiper-nav-wrap">
@@ -126,13 +106,13 @@ $this->context->layout = false;
             <h3>简介</h3>
             <div class="row row-30 flex-row-md-reverse justify-content-lg-between">
                 <div class="col-md-6">
-                    <figure><img src="statics/images/typography-2-570x386.jpg" alt="" width="570" height="386">
+                    <figure><img src="statics/images/urwar.jpg" alt="" width="570" height="386">
                     </figure>
                 </div>
                 <div class="col-md-6">
                     <div class="inset-lg-right-40 inset-xl-right-85 text-secondary">
-                        <p>Our approach is practical and client-oriented, and we are committed to providing efficient, effective, and top-quality legal services. Other firms measure success by their growth in size. Our priority is to measure our success based on the growth in the quality of our work and the complexity of our legal services.</p>
-                        <p>We endeavour to establish long-lasting relationships with our clients. Every assignment is preceded by a careful assessment of the work, costs and realistic results. We carry out our assignments in close consultation with the client. This goes some way to explaining why we are justifiably proud of our many long-standing and close client relationships. In the course of long-term engagements, each client has a specific contact attorney within the firm who is familiar with the client's business operations and maintains close communication with the client.</p>
+                        <p>俄乌战争（乌克兰语：російсько-українська війна; 俄语：российско-украинская война）是2014年2月20日起俄罗斯与乌克兰之间爆发的一场旷日持久的混合战争，前期以低强度战争及代理人战争形式进行。2022年2月24日，俄白联盟以“非军事化、去纳粹化”为由全面入侵乌克兰，冲突当日起正式白热化为全面战争，并迅速发展为第二次世界大战以来欧洲最大规模的战争。</p>
+                        <p>引发战争的深层原因包括1991年苏联解体后此地的“乌克兰化、去俄罗斯化”、境内俄裔俄罗斯民族主义所致国族认同分裂、“北约东扩”引发俄罗斯的不安全感、俄罗斯在前苏联地区重建影响力的计划，导火索为推翻了维克托·亚努科维奇亲俄政权的2014年乌克兰亲欧盟示威运动，以及随后的克里米亚危机、顿巴斯分离主义，这场战争围绕着乌克兰东南部的克里米亚和东部的顿巴斯地区的地位展开。2022年2月24日正式宣战前，俄罗斯政府的官方态度认为“战争状态”为乌克兰政府单方面宣称，其一直否认有任何参与，并称所有涉及乌境内冲突的俄方人员均为“志愿军”。</p>
                     </div>
                 </div>
             </div>
@@ -144,16 +124,15 @@ $this->context->layout = false;
             <div class="row row-40 row-offset-1 justify-content-sm-center justify-content-md-start">
                 <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
                     <article class="post-boxed">
-                        <div class="post-boxed-image"><img src="statics/images/home-5-268x182.jpg" alt="" width="268" height="182"/>
+                        <div class="post-boxed-image"><img src="statics/images/rrr.jfif" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">The Lawyers Collective Women's Rights Initiative</a></div>
+                            <div class="post-boxed-title"><a href="#">俄乌战争第352天，清晨俄军发动大规模导弹攻击，基辅工厂发生爆炸，双方在巴赫穆特激战</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
-                                        <time datetime="2019-06-14">JUNE 14, 2019</time>
+                                        <time datetime="">FEB 10, 2023</time>
                                     </li>
-                                    <li><span>by</span><a href="#">Admin</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -161,16 +140,15 @@ $this->context->layout = false;
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
                     <article class="post-boxed">
-                        <div class="post-boxed-image"><img src="statics/images/home-6-268x182.jpg" alt="" width="268" height="182"/>
+                        <div class="post-boxed-image"><img src="statics/images/wurenji.jfif" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">Legal Documents Every Landlord Needs</a></div>
+                            <div class="post-boxed-title"><a href="#">战场态势改变！俄在整个前线加大攻击，炸毁乌境内未来的北约基地</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
-                                        <time datetime="2019-06-20">JUNE 20, 2019</time>
+                                        <time datetime="2019-06-20">FEB 7, 2023</time>
                                     </li>
-                                    <li><span>by</span><a href="#">Admin</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -178,16 +156,15 @@ $this->context->layout = false;
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
                     <article class="post-boxed">
-                        <div class="post-boxed-image"><img src="statics/images/home-7-268x182.jpg" alt="" width="268" height="182"/>
+                        <div class="post-boxed-image"><img src="statics/images/1000.webp" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">Help Us Make the Law Accessible for Everyone</a></div>
+                            <div class="post-boxed-title"><a href="#">巴赫穆特战况转变，前线乌军几近崩溃，两个旅主动向俄军投降</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
-                                        <time datetime="2019-06-23">JUNE 23, 2019</time>
+                                        <time datetime="">FEB 10, 2023</time>
                                     </li>
-                                    <li><span>by</span><a href="#">Admin</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -195,16 +172,15 @@ $this->context->layout = false;
                 </div>
                 <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
                     <article class="post-boxed">
-                        <div class="post-boxed-image"><img src="statics/images/home-8-268x182.jpg" alt="" width="268" height="182"/>
+                        <div class="post-boxed-image"><img src="statics/images/u.jpg" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">5 Legal Documents for Military Service People</a></div>
+                            <div class="post-boxed-title"><a href="#">乌东前线俄军进展缓慢、连续，乌方放风提防俄“春季攻势”</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
-                                        <time datetime="2019-06-12">JUNE 12, 2019</time>
+                                        <time datetime="">FEB 4, 2023</time>
                                     </li>
-                                    <li><span>by</span><a href="#">Admin</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -256,12 +232,12 @@ $this->context->layout = false;
                         <article class="icon-box">
                             <div class="box-top">
                                 <div class="box-header">
-                                    <h5>Business Law</h5>
+                                    <h5>中国</h5>
                                 </div>
                             </div>
                             <div class="divider bg-accent"></div>
                             <div class="box-body">
-                                <p>Business law deals with the creation of new businesses and the issues that arise as existing.</p>
+                                <p>中华人民共和国政府表示，反对任何非法单边制裁。23日，中华人民共和国外交部发言人华春莹在例行记者会上说“我们认为制裁从来都不是解决问题的根本有效途径，中方一贯反对任何非法的单边制裁。”中国海关总署官网23日发布公告，允许俄罗斯全境小麦进口。3月2日，中国银行保险监督管理委员会主席郭树清表示，中国不赞成对俄罗斯进行金融制裁，而且也不会参与金融制裁，称单边制裁效果不佳且缺乏法律依据。</p>
                             </div>
                         </article>
                     </div>
@@ -271,12 +247,12 @@ $this->context->layout = false;
                         <article class="icon-box">
                             <div class="box-top">
                                 <div class="box-header">
-                                    <h5>Family Law</h5>
+                                    <h5>欧盟</h5>
                                 </div>
                             </div>
                             <div class="divider bg-accent"></div>
                             <div class="box-body">
-                                <p>Family law attorneys help their clients file for separation or divorce, alimony or child custody.</p>
+                                <p>2月24日上午，欧盟委员会主席乌尔苏拉·冯德莱恩宣布欧盟将采取大规模制裁措施。制裁针对技术转让、俄罗斯银行和俄罗斯资产。欧盟外交和安全政策高级代表何塞·博雷利·丰特列斯表示，俄罗斯将面临“前所未有的孤立”，因为欧盟将实施“（欧盟实施的）最严厉的一系列制裁措施”。他还说，“这是自二战以来欧洲最黑暗的时刻之一”。欧洲议会议长萝伯塔·梅措拉呼吁“立即、迅速、扎实和迅速地采取行动”，并将于3月1日召开了一次特别会议。</p>
                             </div>
                         </article>
                     </div>
@@ -286,12 +262,12 @@ $this->context->layout = false;
                         <article class="icon-box">
                             <div class="box-top">
                                 <div class="box-header">
-                                    <h5>Civil Litigation</h5>
+                                    <h5>美国</h5>
                                 </div>
                             </div>
                             <div class="divider bg-accent"></div>
                             <div class="box-body">
-                                <p>Civil litigation is the process in which civil matters are resolved in a court of law.</p>
+                                <p>美国总统乔·拜登宣布限制四家俄罗斯银行，包括VEB.RF（英语：VEB.RF]]）银行，以及与普京关系密切的“腐败的亿万富翁们”。他提到将增加北约部队的部署，以帮助邻近的北约国家。4月20日，美国宣布对俄罗斯实施新一波经济制裁，其中包括40多个实体和个人以及一家虚拟货币采矿公司。 4月21日，美国宣布禁止俄罗斯船只入港。7月底，美国开始对570种俄罗斯商品征收进口关税。</p>
                             </div>
                         </article>
                     </div>
@@ -305,19 +281,19 @@ $this->context->layout = false;
             <div class="container">
                 <div class="inset-xl-left-70 inset-xl-right-70">
                     <article class="box-cart bg-ebony-clay">
-                        <div class="box-cart-image"><img src="statics/images/home-2-342x338.jpg" alt="" width="342" height="338"/>
+                        <div class="box-cart-image"><img src="statics/images/gulei.jpg" alt="" width="342" height="338"/>
                         </div>
                         <div class="box-cart-body">
                             <blockquote class="blockquote-complex blockquote-complex-inverse">
                                 <h3>专家视角</h3>
                                 <p>
-                                    <q>When you place your case in the hands of our lawyers and paralegals, you are placing your case in the hands of professionals who are committed to achieving the best possible outcome.</q>
+                                    <q>和平前景继续减少，进一步升级和流血的可能性在不断增加。俄乌冲突进一步升级可能意味着世界正走向“更广泛的战争”。</q>
                                 </p>
                                 <div class="quote-footer">
-                                    <cite>Ryan Emberson</cite><small>CEO at LawExpert</small>
+                                    <cite>古特雷斯</cite><small>联合国秘书长</small>
                                 </div>
                             </blockquote>
-                            <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="#">Request a Free Consultation</a></div>
+                            <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="#">查看更多</a></div>
                         </div>
                     </article>
                 </div>
@@ -329,63 +305,32 @@ $this->context->layout = false;
     <section class="section-60 section-lg-100">
         <div class="container">
             <div class="row row-40 align-items-sm-end">
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                        <div class="thumbnail thumbnail-variant-2">
-                            <figure class="thumbnail-image"><img src="statics/images/team-9-246x300.jpg" alt="" width="246" height="300"/>
-                            </figure>
-                            <div class="thumbnail-inner">
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                            </div>
-                            <div class="thumbnail-caption">
-                                <p class="text-header"><a href="#">Amanda Smith</a></p>
-                                <div class="divider divider-md bg-teak"></div>
-                                <p class="text-caption">Paralegal</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                        <div class="thumbnail thumbnail-variant-2">
-                            <figure class="thumbnail-image"><img src="statics/images/team-10-246x300.jpg" alt="" width="246" height="300"/>
-                            </figure>
-                            <div class="thumbnail-inner">
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                            </div>
-                            <div class="thumbnail-caption">
-                                <p class="text-header"><a href="#">John Doe</a></p>
-                                <div class="divider divider-md bg-teak"></div>
-                                <p class="text-caption">Attorney</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-3">
-                    <div class="thumbnail-variant-2-wrap">
-                        <div class="thumbnail thumbnail-variant-2">
-                            <figure class="thumbnail-image"><img src="statics/images/team-11-246x300.jpg" alt="" width="246" height="300"/>
-                            </figure>
-                            <div class="thumbnail-inner">
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary material-icons-local_phone"></span><a class="link-white" href="tel:#">+1 (409) 987–5874</a></div>
-                                <div class="link-group"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                            </div>
-                            <div class="thumbnail-caption">
-                                <p class="text-header"><a href="#">Vanessa Ives</a></p>
-                                <div class="divider divider-md bg-teak"></div>
-                                <p class="text-caption">Legal Assistant</p>
-                            </div>
-                        </div>
+                <div class="col-sm-6 col-md-12 col-lg-3 text-center">
+                    <div class="block-wrap-1">
+                        <h3 class="text-normal">科夫曼</h3>
+                        <p class="h5 h5-smaller text-style-4">CNA负责人</p>
+                        <p>德国坦克在内的西方坦克无法影响俄乌冲突的进程。与此同时，乌克兰已有数千辆坦克被毁。他总结说：“我不相信，西方坦克的质量先进俄罗斯坦克那么多，以至于可以改变战局。”</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-12 col-lg-3 text-center">
                     <div class="block-wrap-1">
-                        <div class="block-number">06</div>
-                        <h3 class="text-normal">Experts</h3>
-                        <p class="h5 h5-smaller text-style-4">in Their Fields</p>
-                        <p>If you or your business is facing a legal challenge, contact us today to arrange a free initial consultation with an attorney.</p><a class="link link-group link-group-animated link-bold link-secondary" href="#"><span>Read more</span><span class="novi-icon icon icon-xxs icon-primary fa fa-angle-right"></span></a>
+                        <h3 class="text-normal">韦进深</h3>
+                        <p class="h5 h5-smaller text-style-4">副教授</p>
+                        <p>  美国一面对乌克兰提供情报支持和军事援助，一面对俄罗斯加码制裁，事实上对俄乌局势和双方的立场和态度产生了关键性影响，在俄乌局势朝向长期性和复杂化发展中扮演了幕后推手的角色。</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-3 text-center">
+                    <div class="block-wrap-1">
+                        <h3 class="text-normal">宋忠平</h3>
+                        <p class="h5 h5-smaller text-style-4">军事评论员</p>
+                        <p>  目前的俄乌冲突局势有两个焦点：其一，俄罗斯借特别军事行动一周年之机发动一场新的进攻，似乎不可避免；其二，无论俄罗斯是否发动新的进攻，2月24日之后，俄乌冲突大概率会进入战略相持阶段。</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-12 col-lg-3 text-center">
+                    <div class="block-wrap-1">
+                        <h3 class="text-normal">吴黎明</h3>
+                        <p class="h5 h5-smaller text-style-4">新华社记者</p>
+                        <p>美国的军工复合体是这场冲突的直接受益者，并且长期从中牟利。冲突发生后，包括德国在内的一些欧洲国家大规模提升国防预算，增加从美国购买各种武器装备的投入，让美国军工企业乐开了花。</p>
                     </div>
                 </div>
             </div>
@@ -472,37 +417,13 @@ $this->context->layout = false;
                                 <div class="row" style="max-width: 270px;">
                                     <div class="col-6">
                                         <ul class="list-marked-variant-2">
-                                            <li><a href="index.html">Home</a></li>
-                                            <li><a href="#">Services</a></li>
-                                            <li><a href="#">Careers</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-6">
-                                        <ul class="list-marked-variant-2">
-                                            <li><a href="about-us.html">About us</a></li>
-                                            <li><a href="contact-us.html">Contacts</a></li>
-                                            <li><a href="#">Appointment</a></li>
+                                            <li><a href="https://www.zhihu.com/column/c_1561629727898427392">知乎</a></li>
+                                            <li><a href="https://baike.baidu.com/item/2022%E5%B9%B4%E4%BF%84%E4%B9%8C%E5%86%B2%E7%AA%81/60143880">百度</a></li>
+                                            <li><a href="https://zh.wikipedia.org/wiki/2022%E5%B9%B4%E4%BF%84%E7%BE%85%E6%96%AF%E5%85%A5%E4%BE%B5%E7%83%8F%E5%85%8B%E8%98%AD">Wiki</a></li>
+                                            <li><a href="https://chinese.aljazeera.net/news/war-in-ukraine/2022/12/29/%e5%9b%9e%e9%a1%be2022%e5%b9%b4%e5%8f%af%e8%a7%86%e5%8c%96%e4%bf%84%e4%b9%8c%e6%88%98%e4%ba%89%e8%bf%9b%e7%a8%8b">2022俄乌战争总结</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 col-xl-3">
-                                <p class="h7">Contact us</p>
-                                <address class="contact-info text-left">
-                                    <div class="unit unit-horizontal unit-spacing-md align-items-center">
-                                        <div class="unit-left"><span class="novi-icon icon icon-xs icon-storm-gray material-icons-phone"></span></div>
-                                        <div class="unit-body"><a class="link-white" href="tel:#">+123 234 984 47 45</a></div>
-                                    </div>
-                                    <div class="unit unit-horizontal unit-spacing-md align-items-center">
-                                        <div class="unit-left"><span class="novi-icon icon icon-xs icon-storm-gray fa fa-envelope-o"></span></div>
-                                        <div class="unit-body"><a class="link-white" href="mailto:#">info@demolink.org</a></div>
-                                    </div>
-                                    <div class="unit unit-horizontal unit-spacing-md">
-                                        <div class="unit-left"><span class="novi-icon icon icon-xs icon-storm-gray material-icons-place"></span></div>
-                                        <div class="unit-body"><a class="link-white d-inline" href="#">6036 Richmond hwy,<br>Alexandria, VA USA 22303</a></div>
-                                    </div>
-                                </address>
                             </div>
                         </div>
                     </div>
@@ -515,18 +436,8 @@ $this->context->layout = false;
         <div class="section-35">
             <div class="container text-center">
                 <div class="row row-15 flex-md-row-reverse justify-content-md-between align-items-md-center">
-                    <div class="col-md-6 text-md-right">
-                        <div class="group-sm group-middle">
-                            <p class="font-italic text-white">Follow Us:</p>
-                            <ul class="list-inline list-inline-reset">
-                                <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-facebook" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-twitter" href="#"></a></li>
-                                <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-google-plus" href="#"></a></li>
-                            </ul>
-                        </div>
-                    </div>
                     <div class="col-md-6 text-md-left">
-                        <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>LawExpert.&nbsp; All Rights Reserved.</span>Design&nbsp;by&nbsp;<a href="https://www.templatemonster.com">TemplateMonster</a></p>
+                        <p class="rights text-white"><span class="copyright-year"></span><span>&nbsp;&#169;&nbsp;</span><span>网数小队.&nbsp; All Rights Reserved.</span>Design&nbsp;by&nbsp;<a href="https://github.com/ZhangShuui/WebDatabaseDev">Zsr</a></p>
                     </div>
                 </div>
             </div>

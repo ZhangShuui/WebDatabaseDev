@@ -42,6 +42,35 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ],
     ]); ?>
+<!--    --><?php //= GridView::widget([
+//        'dataProvider' => $dataProvider,
+//        //'filterModel' => $searchModel,
+//        'options' => [
+//            'style'=>'overflow: auto; word-wrap: break-word;'
+//        ],
+//        'columns' => [
+//            //['class' => 'yii\grid\SerialColumn'],
+//
+//            //'bId',
+//            'id',
+//            [
+//                'attribute'=>'content',
+//                // 'contentOptions' => [
+//                // 'style'=>'word-wrap:break-word;word-break:break-all'
+//                // ],
+//                'headerOptions' => ['width' => '700']
+//            ],
+//            [
+//                'attribute'=>'time',
+//                'value'=>function($model){
+//                    return date('Y-m-d', $model->time);
+//
+//                },
+//            ]
+//
+//            //['class' => 'yii\grid\ActionColumn'],
+//        ],
+//    ]); ?>
 
     <?php Pjax::end(); ?>
 
