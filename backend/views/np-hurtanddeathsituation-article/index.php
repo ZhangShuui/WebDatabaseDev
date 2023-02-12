@@ -10,15 +10,16 @@ use yii\widgets\Pjax;
 /** @var backend\models\NpHurtanddeathsituationArticleSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Np Hurtanddeathsituation Articles';
+$this->title = '伤亡信息管理';
 $this->params['breadcrumbs'][] = $this->title;
+
 ?>
 <div class="np-hurtanddeathsituation-article-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Np Hurtanddeathsituation Article', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('创建新的伤亡报告', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php Pjax::begin(); ?>

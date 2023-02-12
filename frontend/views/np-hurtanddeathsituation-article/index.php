@@ -10,7 +10,7 @@ use yii\widgets\Pjax;
 /** @var frontend\models\NpHurtanddeathsituationArticleSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Np Hurtanddeathsituation Articles';
+$this->title = '伤亡报告';
 $this->params['breadcrumbs'][] = $this->title;
 
 ?>
@@ -18,30 +18,20 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Create Np Hurtanddeathsituation Article', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
 
     <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
             'tittle',
             'time',
             'writer',
             'content',
-            [
-                'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, NpHurtanddeathsituationArticle $model, $key, $index, $column) {
-                    return Url::toRoute([$action, 'id' => $model->id]);
-                 }
-            ],
+
         ],
     ]); ?>
 

@@ -10,7 +10,7 @@ use yii\widgets\Pjax;
 /** @var frontend\models\LeaveMessageSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Leave Messages';
+$this->title = '留言板';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="leave-message-index">

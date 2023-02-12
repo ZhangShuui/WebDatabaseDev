@@ -10,7 +10,7 @@ use yii\widgets\Pjax;
 /** @var backend\models\NpFrontsituationArticleSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Np Frontsituation Articles';
+$this->title = '前线局势管理';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="np-frontsituation-article-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Np Frontsituation Article', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('创建新的文章', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php Pjax::begin(); ?>

@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /** @var yii\web\View $this */
-/** @var backend\models\User $model */
+/** @var backend\models\Expertviews $model */
 
-$this->title = '创建用户';
-$this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['index']];
+$this->title = '创建文章';
+$this->params['breadcrumbs'][] = ['label' => 'Expertviews', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="user-create">
+<div class="expertviews-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

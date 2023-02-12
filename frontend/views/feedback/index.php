@@ -10,7 +10,7 @@ use yii\widgets\Pjax;
 /** @var frontend\models\FeedbackSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Feedbacks';
+$this->title = '填写反馈';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="feedback-index">
@@ -18,29 +18,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Feedback', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('填写你的反馈', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <?= GridView::widget([
-        'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
-        'columns' => [
-            ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'content',
-            'user',
-            [
-                'class' => ActionColumn::className(),
-                'urlCreator' => function ($action, Feedback $model, $key, $index, $column) {
-                    return Url::toRoute([$action, 'id' => $model->id]);
-                 }
-            ],
-        ],
-    ]); ?>
 
     <?php Pjax::end(); ?>
 

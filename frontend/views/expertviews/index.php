@@ -10,23 +10,19 @@ use yii\widgets\Pjax;
 /** @var frontend\models\ExpertviewsSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Expertviews';
+$this->title = '专家点评';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="expertviews-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Create Expertviews', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
 
     <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 

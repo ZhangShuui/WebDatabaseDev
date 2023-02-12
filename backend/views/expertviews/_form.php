@@ -4,22 +4,22 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /** @var yii\web\View $this */
-/** @var frontend\models\LeaveMessage $model */
+/** @var backend\models\Expertviews $model */
 /** @var yii\widgets\ActiveForm $form */
 ?>
 
-<div class="leave-message-form">
+<div class="expertviews-form">
 
     <?php $form = ActiveForm::begin(); ?>
 
-    <?= $form->field($model, 'user')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'time')->textInput() ?>
+    <?= $form->field($model, 'name')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'content')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'time')->textInput() ?>
+
     <div class="form-group">
-        <?= Html::submitButton('提交留言', ['class' => 'btn btn-success']) ?>
+        <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

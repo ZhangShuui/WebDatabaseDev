@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var frontend\models\LeaveMessage $model */
 
-$this->title = 'Create Leave Message';
+$this->title = '进行留言';
 $this->params['breadcrumbs'][] = ['label' => 'Leave Messages', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

@@ -346,16 +346,36 @@ AppAsset::register($this);
                     <span class="glyphicon glyphicon-user"></span> 用户管理</a>
             </li>
             <li>
-                <a href="<?php echo Url::to(['site/newsindex']) ?>">
-                    <span class="glyphicon glyphicon-bell"></span> 新闻管理</a>
-            </li>
-            <li>
                 <a href="<?php echo Url::to(['leave-message/index']) ?>">
                     <span class="glyphicon glyphicon-book"></span> 留言板管理</a>
             </li>
             <li>
-                <a href="<?php echo Url::to(['site/personalwork1']) ?>">
+                <a href="<?php echo Url::to(['friendlink/index']) ?>">
                     <span class="glyphicon glyphicon-link"></span> 友链管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['np-frontsituation-article/index']) ?>">
+                    <span class="glyphicon glyphicon-link"></span> 前线局势管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['expertviews/index']) ?>">
+                    <span class="glyphicon glyphicon-link"></span> 专家视角管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['double-deathandhurt/index']) ?>">
+                    <span class="glyphicon glyphicon-link"></span> 伤亡信息管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['np-hurtanddeathsituation-article/index']) ?>">
+                    <span class="glyphicon glyphicon-link"></span> 伤亡报告管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['np-globalsituation-article/index']) ?>">
+                    <span class="glyphicon glyphicon-link"></span> 国际视角管理</a>
+            </li>
+            <li>
+                <a href="<?php echo Url::to(['feedback/index']) ?>">
+                    <span class="glyphicon glyphicon-book"></span> 查看反馈</a>
             </li>
         </ul>
         <!-- End: Sidebar Menu -->

@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /** @var yii\web\View $this */
 /** @var frontend\models\Feedback $model */
 
-$this->title = 'Create Feedback';
+$this->title = '填写反馈';
 $this->params['breadcrumbs'][] = ['label' => 'Feedbacks', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>

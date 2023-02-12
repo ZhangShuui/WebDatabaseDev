@@ -10,27 +10,20 @@ use yii\widgets\Pjax;
 /** @var backend\models\DoubleDeathandhurtSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Double Deathandhurts';
+$this->title = '双方伤亡';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="double-deathandhurt-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Create Double Deathandhurt', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-
     <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-            'id',
             'citizens_death',
             'ukraine_death',
             'russia_death',

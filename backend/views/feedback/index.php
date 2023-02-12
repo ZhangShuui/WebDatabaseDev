@@ -10,16 +10,13 @@ use yii\widgets\Pjax;
 /** @var backend\models\FeedbackSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Feedbacks';
+$this->title = '反馈信息';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="feedback-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
-    <p>
-        <?= Html::a('Create Feedback', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
 
     <?php Pjax::begin(); ?>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>

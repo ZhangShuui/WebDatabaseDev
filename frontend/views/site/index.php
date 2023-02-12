@@ -48,6 +48,10 @@ $this->context->layout = false;
                             <div class="rd-navbar-nav-inner">
                                 <div class="rd-navbar-btn-wrap"><a class="button button-smaller button-primary-outline" href="\advanced\backend\web">进入后台</a></div>
                                 <ul class="rd-navbar-nav">
+                                    <li class="active"><a href="/advanced/frontend/web/index.php?r=feedback">联系我们</a>
+                                    </li>
+                                </ul>
+                                <ul class="rd-navbar-nav">
                                     <li class="active"><a href="#">主页</a>
                                     </li>
                                 </ul>
@@ -127,7 +131,7 @@ $this->context->layout = false;
                         <div class="post-boxed-image"><img src="statics/images/rrr.jfif" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">俄乌战争第352天，清晨俄军发动大规模导弹攻击，基辅工厂发生爆炸，双方在巴赫穆特激战</a></div>
+                            <div class="post-boxed-title"><a href="/advanced/frontend/web/index.php?r=np-frontsituation-article">俄乌战争第352天，清晨俄军发动大规模导弹攻击，基辅工厂发生爆炸，双方在巴赫穆特激战</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
@@ -143,7 +147,7 @@ $this->context->layout = false;
                         <div class="post-boxed-image"><img src="statics/images/wurenji.jfif" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">战场态势改变！俄在整个前线加大攻击，炸毁乌境内未来的北约基地</a></div>
+                            <div class="post-boxed-title"><a href="/advanced/frontend/web/index.php?r=np-frontsituation-article">战场态势改变！俄在整个前线加大攻击，炸毁乌境内未来的北约基地</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
@@ -159,7 +163,7 @@ $this->context->layout = false;
                         <div class="post-boxed-image"><img src="statics/images/1000.webp" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">巴赫穆特战况转变，前线乌军几近崩溃，两个旅主动向俄军投降</a></div>
+                            <div class="post-boxed-title"><a href="/advanced/frontend/web/index.php?r=np-frontsituation-article">巴赫穆特战况转变，前线乌军几近崩溃，两个旅主动向俄军投降</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
@@ -175,7 +179,7 @@ $this->context->layout = false;
                         <div class="post-boxed-image"><img src="statics/images/u.jpg" alt="" width="268" height="182"/>
                         </div>
                         <div class="post-boxed-body">
-                            <div class="post-boxed-title"><a href="#">乌东前线俄军进展缓慢、连续，乌方放风提防俄“春季攻势”</a></div>
+                            <div class="post-boxed-title"><a href="/advanced/frontend/web/index.php?r=np-frontsituation-article">乌东前线俄军进展缓慢、连续，乌方放风提防俄“春季攻势”</a></div>
                             <div class="post-boxed-footer">
                                 <ul class="post-boxed-meta">
                                     <li>
@@ -189,7 +193,9 @@ $this->context->layout = false;
             </div>
         </div>
     </section>
+    <h3 class="text-center"><a href="/advanced/frontend/web/index.php?r=np-hurtanddeathsituation-article">伤亡情况</a></h3>
     <section class="section parallax-container bg-black" data-parallax-img="statics/images/back.jpg">
+
         <div class="parallax-content">
             <div class="section-50 section-md-90">
                 <div class="container">
@@ -293,7 +299,7 @@ $this->context->layout = false;
                                     <cite>古特雷斯</cite><small>联合国秘书长</small>
                                 </div>
                             </blockquote>
-                            <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="#">查看更多</a></div>
+                            <div class="button-wrap inset-md-left-70"><a class="button button-responsive button-medium button-primary-outline-v2" href="/advanced/frontend/web/index.php?r=expertviews">查看更多</a></div>
                         </div>
                     </article>
                 </div>
@@ -361,8 +367,6 @@ $this->context->layout = false;
                         </div>
                         <div class="quote-footer">
                             <div class="unit unit-horizontal unit-spacing-sm align-items-center">
-                                <div class="unit-left"><img class="img-circle" src="statics/images/clients-testimonials-1-68x68.jpg" alt="" width="68" height="68"/>
-                                </div>
                                 <div class="unit-body">
                                     <cite>张书睿</cite>
                                     <p class="text-primary">2010521</p>
@@ -380,19 +384,67 @@ $this->context->layout = false;
                                 </svg>
                             </div>
                             <div class="quote-body-inner">
-                                <h6>LawExpert is One of The Best...</h6>
+                                <h6>俄乌冲突怎么走对中国都是不利的</h6>
                                 <p>
-                                    <q>John Doe is one of those attorneys who has it all-talent and skill, compassion for his clients, and the ability to communicate well with anyone he meets. This is one of the best combinations for a trial attorney and he is one of the best.</q>
+                                    <q>中国在外交上其实面临着一种被架空的状态，在俄乌冲突这件事上，我们一方面强调中国始终坚持尊重他国主权和领土完整的基本原则不会变，但另一方面，考虑到中俄两国的贸易以及军事战略关系，我们又拒绝使用“入侵”“吞并”等词语来形容俄罗斯对乌克兰的此次行动。</q>
                                 </p>
                             </div>
                         </div>
                         <div class="quote-footer">
                             <div class="unit unit-horizontal unit-spacing-sm align-items-center">
-                                <div class="unit-left"><img class="img-circle" src="statics/images/clients-testimonials-2-68x68.jpg" alt="" width="68" height="68"/>
-                                </div>
                                 <div class="unit-body">
-                                    <cite>Amanda Eberson</cite>
-                                    <p class="text-primary">CEO, Eberson Co.</p>
+                                    <cite>周浩然</cite>
+                                    <p class="text-primary">1911528</p>
+                                </div>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="item">
+                    <blockquote class="quote-bordered">
+                        <div class="quote-body">
+                            <div class="quote-open">
+                                <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15" preserveAspectRatio="none">
+                                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316                    c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37                    C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316                    c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37                    C20.106,7.145,20.987,8.493,20.987,10.412z"></path>
+                                </svg>
+                            </div>
+                            <div class="quote-body-inner">
+                                <h6>美国是俄乌冲突的最大赢家</h6>
+                                <p>
+                                    <q>美国称霸世界一个屡试不爽的手段就是巧实力外交，借力打力！为了消耗俄罗斯，拉拢欧洲，解决国内经济不振，完成欧洲产业转移到美国，欧洲金钱流向美国…，看准了撬动这冲突之七寸，经过多年准备，一石多鸟策动了这场冲突。所以它不会全力支援乌克兰，也不会彻底灭了俄罗斯，一个和欧洲对立和打着的俄罗斯最有利于实现美国利益最大化。</q>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quote-footer">
+                            <div class="unit unit-horizontal unit-spacing-sm align-items-center">
+                                <div class="unit-body">
+                                    <cite>邹明锡</cite>
+                                    <p class="text-primary">2013837</p>
+                                </div>
+                            </div>
+                        </div>
+                    </blockquote>
+                </div>
+                <div class="item">
+                    <blockquote class="quote-bordered">
+                        <div class="quote-body">
+                            <div class="quote-open">
+                                <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15" preserveAspectRatio="none">
+                                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316                    c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37                    C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316                    c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37                    C20.106,7.145,20.987,8.493,20.987,10.412z"></path>
+                                </svg>
+                            </div>
+                            <div class="quote-body-inner">
+                                <h6>战争残酷，希望俄乌冲突早日结束</h6>
+                                <p>
+                                    <q>半年以来，我们已经看到了太多决战式的战斗，基辅郊外俄军的突击受阻，顿巴斯地区乌军缠斗俄罗斯装甲集群，以及随后的马里乌波尔钢铁厂围城战以及卢甘斯克那场规模宏大的炮战，重火力对战必然会带来严重的伤亡，无论最后的赢家是谁，两国的平民百姓都是最大的输家。希望战争能早日结束！</q>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="quote-footer">
+                            <div class="unit unit-horizontal unit-spacing-sm align-items-center">
+                                <div class="unit-body">
+                                    <cite>侯舒男</cite>
+                                    <p class="text-primary">1911418</p>
                                 </div>
                             </div>
                         </div>
@@ -413,7 +465,7 @@ $this->context->layout = false;
                     <div class="col-sm-9 col-md-11 col-xl-12">
                         <div class="row row-50">
                             <div class="col-md-6 col-lg-4 col-xl-3">
-                                <p class="h7">Quick links</p>
+                                <p class="h7"><a href="/advanced/frontend/web/index.php?r=friendlink"> Quick links</a></p>
                                 <div class="row" style="max-width: 270px;">
                                     <div class="col-6">
                                         <ul class="list-marked-variant-2">

@@ -10,7 +10,7 @@ use yii\widgets\Pjax;
 /** @var backend\models\LeaveMessageSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
 
-$this->title = 'Leave Messages';
+$this->title = '留言';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="leave-message-index">
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Leave Message', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('创建留言', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php Pjax::begin(); ?>

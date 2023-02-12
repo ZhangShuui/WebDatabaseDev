@@ -3,13 +3,13 @@
 use yii\helpers\Html;
 
 /** @var yii\web\View $this */
-/** @var backend\models\User $model */
+/** @var backend\models\Friendlink $model */
 
-$this->title = '创建用户';
-$this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['index']];
+$this->title = '创建友链';
+$this->params['breadcrumbs'][] = ['label' => 'Friendlinks', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="user-create">
+<div class="friendlink-create">
 
     <h1><?= Html::encode($this->title) ?></h1>
 
