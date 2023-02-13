@@ -50,10 +50,6 @@ $this->params['breadcrumbs'][] = $this->title;
                 ],
                 [
                     'attribute'=>'time',
-                    'value'=>function($model){
-                        return date('Y-m-d', $model->time);
-
-                    },
                 ]
 
                 //['class' => 'yii\grid\ActionColumn'],
