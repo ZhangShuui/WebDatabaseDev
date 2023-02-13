@@ -46,7 +46,6 @@ $this->context->layout = false;
                     <div class="rd-navbar-group">
                         <div class="rd-navbar-nav-wrap">
                             <div class="rd-navbar-nav-inner">
-                                <div class="rd-navbar-btn-wrap"><a class="button button-smaller button-primary-outline" href="\advanced\backend\web">进入后台</a></div>
                                 <ul class="rd-navbar-nav">
                                     <li class="active"><a href="/advanced/frontend/web/index.php?r=feedback">联系我们</a>
                                     </li>
