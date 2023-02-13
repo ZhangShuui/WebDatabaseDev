@@ -7,6 +7,8 @@ use yii\data\ActiveDataProvider;
 use frontend\models\User;
 
 /**
+ * TEAM：张书睿队 NKU
+ * Coding by zhoumingxi 2013837
  * UserSearch represents the model behind the search form of `frontend\models\User`.
  */
 class UserSearch extends User

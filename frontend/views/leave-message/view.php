@@ -2,7 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by houshunan 1911418
+ * This is the leave-message views
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\LeaveMessage $model */
 

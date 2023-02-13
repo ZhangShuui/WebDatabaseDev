@@ -3,6 +3,11 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by houshunan 1911418
+ * This is the leave-message viewss
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\LeaveMessageSearch $model */
 /** @var yii\widgets\ActiveForm $form */

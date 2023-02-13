@@ -6,6 +6,11 @@ use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by zhoumingxi 2013837
+ * This is np-hurtanddeathsituation views
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\NpHurtanddeathsituationArticleSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */

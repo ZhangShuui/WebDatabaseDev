@@ -1,7 +1,11 @@
 <?php
 
 use yii\helpers\Html;
-
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by zhoumingxi 2013837
+ * This is user views
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\User $model */
 

@@ -6,6 +6,11 @@ use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by zhoumingxi 2013837
+ * This is user views
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\UserSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */

@@ -187,7 +187,29 @@ class SiteController extends Controller
         return $this->render('personalwork1');
     }
 
+    /**
+     * Displays personal page.
+     */
+    public function actionPersonalwork2()
+    {
+        return $this->render('personalwork2');
+    }
 
+    /**
+     * Displays personal page.
+     */
+    public function actionPersonalwork3()
+    {
+        return $this->render('personalwork3');
+    }
+
+    /**
+     * Displays personal page.
+     */
+    public function actionPersonalwork4()
+    {
+        return $this->render('personalwork4');
+    }
     /**
      * Signs user up.
      *

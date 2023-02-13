@@ -2,7 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by zhouhaoran 1911528
+ * This is np-frontsituation-article
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\NpFrontsituationArticle $model */
 

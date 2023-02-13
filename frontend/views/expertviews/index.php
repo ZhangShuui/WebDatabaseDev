@@ -6,6 +6,11 @@ use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by houshunan 1911418
+ * This is the expertviews views
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\ExpertviewsSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */

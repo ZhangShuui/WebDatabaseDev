@@ -7,6 +7,8 @@ use yii\data\ActiveDataProvider;
 use frontend\models\DoubleDeathandhurt;
 
 /**
+ * TEAM：张书睿队 NKU
+ * Coding by zhouhaoran 1911528
  * DoubleDeathandhurtSearch represents the model behind the search form of `frontend\models\DoubleDeathandhurt`.
  */
 class DoubleDeathandhurtSearch extends DoubleDeathandhurt

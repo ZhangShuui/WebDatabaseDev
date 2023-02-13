@@ -15,7 +15,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1>团队：DBIS, NKU</h1>
     <div class="row">
         <div class="col-lg-6">
-            <h5>团队成员：张书睿，周浩然，侯舒男，邹明锡</h5>
+            <h5>团队成员：张书睿，123,321,456</h5>
         </div>
     </div>
 
@@ -27,8 +27,8 @@ $this->params['breadcrumbs'][] = $this->title;
             <h4><a href="#">实现文档</a></h4>
             <h4><a href="#">用户手册</a></h4>
             <h4><a href="#">项目展示PPT</a></h4>
-            <h4><a href="https://github.com/ZhangShuui/WebDatabaseDev">源码</a></h4>
-            <h4><a href="/advanced/data/yii2advanced.sql">数据库文件</a></h4>
+            <h4><a href="#">源码</a></h4>
+            <h4><a href="#">数据库文件</a></h4>
             <h4><a href="#">部署文档</a></h4>
         </div>
     </div>

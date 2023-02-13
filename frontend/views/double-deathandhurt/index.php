@@ -6,6 +6,11 @@ use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+/**
+ * TEAM：张书睿队 NKU
+ * Coding by zhouhaoran 1911528
+ * This is double-deathandhurt views
+ */
 /** @var yii\web\View $this */
 /** @var frontend\models\DoubleDeathandhurtSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */

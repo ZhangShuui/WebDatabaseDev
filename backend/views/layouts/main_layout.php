@@ -331,8 +331,16 @@ AppAsset::register($this);
               </li>
               <li>
                 <a href="<?php echo Url::to(['site/personalwork2']) ?>">
-                  <span class="glyphicon glyphicon-book"></span> </a>
+                  <span class="glyphicon glyphicon-book"></span> 周浩然</a>
               </li>
+                <li>
+                    <a href="<?php echo Url::to(['site/personalwork3']) ?>">
+                        <span class="glyphicon glyphicon-book"></span> 侯舒男</a>
+                </li>
+                <li>
+                    <a href="<?php echo Url::to(['site/personalwork4']) ?>">
+                        <span class="glyphicon glyphicon-book"></span> 邹明锡</a>
+                </li>
             </ul>
           </li>
 

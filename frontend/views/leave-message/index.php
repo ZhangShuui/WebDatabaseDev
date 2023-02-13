@@ -6,6 +6,10 @@ use yii\helpers\Url;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
+/*
+ * TEAM：张书睿队 NKU
+ * Coding by houshunan 1911418
+ * This is the leave-message views
 /** @var yii\web\View $this */
 /** @var frontend\models\LeaveMessageSearch $searchModel */
 /** @var yii\data\ActiveDataProvider $dataProvider */
@@ -34,9 +38,13 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= GridView::widget([
             'dataProvider' => $dataProvider,
             //'filterModel' => $searchModel,
-
+            'options' => [
+                'style'=>'overflow: auto; word-wrap: break-word;'
+            ],
             'columns' => [
                 //['class' => 'yii\grid\SerialColumn'],
+                ['class' => 'yii\grid\DataColumn'],
+                'id',
                 [
                     'attribute'=>'content',
                     // 'contentOptions' => [

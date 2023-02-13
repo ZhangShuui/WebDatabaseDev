@@ -7,6 +7,8 @@ use yii\data\ActiveDataProvider;
 use frontend\models\NpHurtanddeathsituationArticle;
 
 /**
+ * TEAM：张书睿队 NKU
+ * Coding by zhoumingxi 2013837
  * NpHurtanddeathsituationArticleSearch represents the model behind the search form of `frontend\models\NpHurtanddeathsituationArticle`.
  */
 class NpHurtanddeathsituationArticleSearch extends NpHurtanddeathsituationArticle
