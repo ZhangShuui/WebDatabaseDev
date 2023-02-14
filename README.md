@@ -55,10 +55,12 @@ tests                    contains various tests for the advanced application
 
 
 使用步骤：
-1. 拉取本框架到本地，放置于/Xampp/htdocs/目录下
-2. 使用init.bat进行初始化
-3. 在本地数据库创建一个名为yii2advanced的数据库，导入/data/advanced.sql，并确保本地mysql有一个账号为root，密码为空的账号
-4. 使用`localhost:'你设置的端口'/advanced/backend/web`进入后端进行登录(默认账号test，密码testtest)，然后进入`localhost'你设置的端口'/advanced/frontend/web`即可
+1. 下载XAMPP的8.0.x版本，使用XAMPP的Init脚本进行环境初始化
+2. 拉取本框架到本地，放置于/Xampp/htdocs/目录下
+3. 使用init.bat进行初始化Yii2框架
+4. 在本地数据库创建一个名为yii2advanced的数据库，导入/data/advanced.sql，并确保本地mysql有一个账号为root，密码为空的账号
+5. 使用`localhost:'你设置的端口'/advanced/backend/web`进入后端进行登录(默认账号test，密码testtest)，然后进入`localhost'你设置的端口'/advanced/frontend/web`即可
+
 
 如果不能正常使用：
 - 检查php的php.ini文件中是否打开gd,pdo_mysql等extension
