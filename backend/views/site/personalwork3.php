@@ -12,7 +12,7 @@ $this->title = '个人作业';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1>张书睿(2010521)</h1>
+    <h1>侯舒男(1911418)</h1>
 
     <p>
         所属成员：张书睿队,NKU
@@ -20,9 +20,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <br/>
     <div class="row">
         <div class="col-lg-5">
-            <h4><a href="/advanced/data/个人作业/作业1">作业1：网页前端初探</a></h4>
-            <h4><a href="/advanced/data/个人作业/作业2">作业2：Web前端设计</a></h4>
-            <h4><a href="/advanced/data/个人作业/作业3">作业3：开源建站工具初试</a></h4>
+            <h4><a href="/advanced/data/personal/1911418 侯舒男/作业1（1911418_侯舒男）.zip">作业1：网页前端初探</a></h4>
+            <h4><a href="/advanced/data/personal/1911418 侯舒男/作业2（1911418_侯舒男）.zip">作业2：Web前端设计</a></h4>
+            <h4><a href="/advanced/data/personal/1911418 侯舒男/作业3（1911418_侯舒男）.zip">作业3：开源建站工具初试</a></h4>
         </div>
     </div>
 
